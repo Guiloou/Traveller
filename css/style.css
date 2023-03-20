@@ -5,10 +5,22 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+
 }
 
-a {
+body{
+    background-color: #FFFAFA
+}
+
+a:visited, a:active, a {
+    color: #000;
     text-decoration: none;
+    font-size: 20px;
+}
+
+a:hover{
+    color: #973e3e;
 }
 
 h1 {
@@ -20,3 +32,144 @@ p, h2 {
     font-family: 'Open Sans', sans-serif;
 }
 
+.cabecalho {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.titulo_logo{
+
+    width: 200px;
+    margin:20px;
+
+}
+
+.menu{
+
+    margin:30px;
+
+}
+.menu a {
+    margin: 0 12px;
+}
+
+.banner {
+    width: 100%;
+    height: 280px;
+
+}
+
+.why {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.text-why {
+    font-size: 15px;
+    margin: 20px 50px 50px 50px;
+
+}
+
+.news-box {
+    border-right: 1px solid rgba(0, 0, 0, 0.308);
+    width: 1400px;
+    float: left;
+
+
+}
+
+.news {
+
+    width: 1000px;
+    margin: 50px 150px;
+    
+
+    
+}
+
+.img-news {
+    width: 1000px;
+
+}
+
+.categ {
+
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.categ a{
+
+    font-size: 20px;
+    margin: 4px 0;
+}
+
+.categ h2{
+    
+    padding: 20px;
+    font-size: 30px;
+}
+
+/* Comece a planejar */
+
+.planning{
+    background-color:#000;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #000;
+
+
+}
+
+.list_planning_box {
+    display: flex;
+    margin-top: 32px;
+}
+
+.planning_title{
+    font-size: 25px;
+    color: #fff ;
+
+}
+
+.planning_box{
+    background-color: #fff;
+    padding: 15px;
+    border: 4px solid #000;
+    text-align:center ;
+
+}
+
+.icon{
+    font-size: 80px;
+    color: #000;
+}
+
+.planning_text{
+    height: 20px;
+    font-weight: bold;
+    color: #000;
+
+}
+
+.foot {
+    width: 100%;
+    height: 50px;
+    text-align: end;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+}
